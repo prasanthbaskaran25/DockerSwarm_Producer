@@ -1,3 +1,3 @@
 FROM openjdk:8
-ADD target/consumer-0.0.1-SNAPSHOT.war consumer-0.0.1-SNAPSHOT.war
-ENTRYPOINT [ "java","-jar","/consumer-0.0.1-SNAPSHOT.war" ]
+ADD target/Dockerswarm_Producer-0.0.1-SNAPSHOT.war Dockerswarm_Producer-0.0.1-SNAPSHOT.war
+ENTRYPOINT [ "java","-jar","/Dockerswarm_Producer-0.0.1-SNAPSHOT.war" ]
